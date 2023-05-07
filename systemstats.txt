@@ -1,0 +1,81 @@
+MemTotal:        4026540 kB
+MemFree:          152416 kB
+MemAvailable:    2674980 kB
+Buffers:          158216 kB
+Cached:          2495900 kB
+SwapCached:            0 kB
+Active:          1707428 kB
+Inactive:        1839216 kB
+Active(anon):     895260 kB
+Inactive(anon):      336 kB
+Active(file):     812168 kB
+Inactive(file):  1838880 kB
+Unevictable:        2468 kB
+Mlocked:            2468 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:              5028 kB
+Writeback:             0 kB
+AnonPages:        879280 kB
+Mapped:           403492 kB
+Shmem:               936 kB
+KReclaimable:     169160 kB
+Slab:             239736 kB
+SReclaimable:     169160 kB
+SUnreclaim:        70576 kB
+KernelStack:        7940 kB
+PageTables:        15232 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2013268 kB
+Committed_AS:    3880764 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       34228 kB
+VmallocChunk:          0 kB
+Percpu:             1568 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    256000 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      135104 kB
+DirectMap2M:     4059136 kB
+DirectMap1G:     2097152 kB
+top - 01:32:03 up 41 min,  0 users,  load average: 0.45, 0.31, 0.36
+Tasks:  20 total,   1 running,  19 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.1 us,  6.1 sy,  0.0 ni, 81.8 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st
+MiB Mem :   3932.2 total,    147.1 free,   1027.9 used,   2757.1 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   2610.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 codespa+  20   0    1084      4      0 S   0.0   0.0   0:00.08 docker-init
+    7 codespa+  20   0    7232    580    512 S   0.0   0.0   0:00.01 sleep
+   22 root      20   0   12184   3024   2100 S   0.0   0.1   0:00.00 sshd
+   51 root      20   0 1378592  68088  42716 S   0.0   1.7   0:00.35 dockerd
+   76 root      20   0 1356400  46948  28208 S   0.0   1.2   0:00.90 containerd
+  267 codespa+  20   0    2612   1800   1700 S   0.0   0.0   0:00.01 sh
+  356 root      20   0    2612    600    528 S   0.0   0.0   0:00.00 sh
+  364 codespa+  20   0    2620    540    460 S   0.0   0.0   0:00.01 sh
+  373 codespa+  20   0  942696  77628  35076 S   0.0   1.9   0:05.39 node
+  393 codespa+  20   0  645288  57176  32512 S   0.0   1.4   0:05.24 node
+  422 codespa+  20   0   11.1g 271816  38620 S   0.0   6.8   1:16.09 node
+  487 codespa+  20   0  837680  41796  31916 S   0.0   1.0   0:00.41 node
+  645 codespa+  20   0    2612   1712   1612 S   0.0   0.0   0:00.00 sh
+  718 root      20   0    2612    592    524 S   0.0   0.0   0:00.00 sh
+ 1000 codespa+  20   0  592392  40732  28656 S   0.0   1.0   0:00.33 node
+ 1018 codespa+  20   0   16760  11940   3508 S   0.0   0.3   0:00.45 bash
+ 1448 codespa+  20   0    2612   1652   1548 S   0.0   0.0   0:00.00 sh
+ 1498 root      20   0    2612    596    528 S   0.0   0.0   0:00.00 sh
+16942 codespa+  20   0   16760   9828   1396 S   0.0   0.2   0:00.00 bash
+16944 codespa+  20   0   10876   3616   3152 R   0.0   0.1   0:00.00 top
+5.0.17(1)-release
